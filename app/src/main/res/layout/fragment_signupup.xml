@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".registration.Signupup">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:text="Название"
+            android:textColor="@color/green"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress"
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/textplain"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColorHint="@color/green" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@id/textView3"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="145dp"
+            android:background="@drawable/textplain"
+            android:ems="10"
+            android:hint="name"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColorHint="@color/green" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword"
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@+id/editTextTextEmailAddress"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textplain"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="@color/green" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="104dp"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/ic_android_black_24dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@+id/editTextTextPassword"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="81dp"
+            android:background="@drawable/butreg"
+            android:onClick="login"
+            android:text="Войти"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@+id/button2"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/secondbutton"
+            android:onClick="registrationfun"
+            android:text="Зарегестрироваться"
+            android:textColor="@color/green" />
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "727890108187",
+    "project_id": "alphaii-de70b",
+    "storage_bucket": "alphaii-de70b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727890108187:android:0094695136f0245cadbdbe",
+        "android_client_info": {
+          "package_name": "com.example.alpha2.registration"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727890108187-vmtmargd7tllfuc2oa34cq9hhvie92mh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alpha2.registration",
+            "certificate_hash": "650059ed6c06e63a1cf3da1e230e89f208a0a106"
+          }
+        },
+        {
+          "client_id": "727890108187-01g72r19edv3a8qkumbmie29tgucsgs4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1XVfS_u-FIvm1W0wCNf8XFM3fEAu0Z_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "727890108187-01g72r19edv3a8qkumbmie29tgucsgs4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

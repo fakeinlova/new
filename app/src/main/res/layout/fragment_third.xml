@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".registration.ThirdFr">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="732dp"
+            android:layout_marginTop="50dp"
+            android:scaleX="1.2"
+            android:scaleY="1.2"
+            android:src="@drawable/phone" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:gravity="center"
+            android:text="Используйте!"
+            android:textColor="#05FF00"
+            android:textSize="50dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="336dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/button"
+            android:onClick="sSign"
+            android:text="Начать"
+            android:textColor="@color/black" />
+
+
+
+    </RelativeLayout>
+</FrameLayout>

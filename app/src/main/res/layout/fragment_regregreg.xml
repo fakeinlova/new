@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".registration.Regregreg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="Название"
+            android:textColor="@color/green"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView334"
+            android:layout_width="match_parent"
+            android:layout_height="97dp"
+            android:layout_below="@id/textView34"
+            android:layout_marginTop="-50dp"
+            android:gravity="center"
+            android:text="Регестрация"
+            android:textColor="@color/green"
+            android:textSize="40dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@id/textView34"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/textplain"
+            android:ems="10"
+            android:hint="Фио"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColorHint="@color/green" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddresss"
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@id/editTextTextEmailAddress2"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textplain"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textAlignment="center"
+            android:textColorHint="@color/green" />
+
+        <EditText
+            android:id="@+id/editTextTextPasswordd"
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@+id/editTextTextEmailAddresss"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textplain"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="@color/green" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@+id/editTextTextPasswordd"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/textplain"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textAlignment="center"
+            android:textColorHint="@color/green" />
+
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@+id/editTextTextPassword2"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="45dp"
+            android:background="@drawable/butreg"
+            android:onClick="zareg"
+            android:text="Зарегестрироваться"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="372dp"
+            android:layout_height="59dp"
+            android:layout_below="@+id/button2"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/secondbutton"
+            android:onClick="vhod"
+            android:text="Уже есть аккаунт?"
+            android:textColor="@color/green" />
+    </RelativeLayout>
+</RelativeLayout>
